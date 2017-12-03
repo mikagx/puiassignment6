@@ -1,3 +1,6 @@
+/***************styling for home page***************/
+
+
 html { 
     box-sizing:border-box;
     font-size:100%;
@@ -22,10 +25,6 @@ body {
 h1 {
     font-size:3.2vw;
 }
-
-/*header{
-    margin-bottom:1em;
-}*/
 
 img {
     display: inline-block;
@@ -588,7 +587,6 @@ div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before {
   height: 100%;
 }
 
-
 @keyframes jello {
   from, 11.1%, to {
     transform: none;
@@ -627,8 +625,6 @@ div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before {
   animation-name: jello;
   transform-origin: center;
 }
-
-
 
 .text {
   white-space: nowrap; 

@@ -1,3 +1,4 @@
+// When the user load the page, the element slides up
 $(document).scroll(function(){
 	  $(".slideanim-pic").each(function(){
 	    var pos = $(this).offset().top;
@@ -12,12 +13,12 @@ $(document).ready(function(){
 	  });
 	  $('.headerclass').addClass('animated slideInUp');
 
+// When the user click on show me the answer button, show the drop down answer
 $('.top').on('click', function() {
 	$parent_box = $(this).closest('.box');
 	$parent_box.siblings().find('.bottom').hide();
 	$parent_box.find('.bottom').toggle();
 });
-	  
 });
 
 
